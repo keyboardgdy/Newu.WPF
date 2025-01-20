@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DbContext\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="UnitOfWork\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="QueryObjects\" />
+    <Folder Include="Logs\" />
+    <Folder Include="Cache\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="DataSeed\" />
+  </ItemGroup>
+
+</Project>
